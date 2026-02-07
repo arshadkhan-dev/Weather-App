@@ -1,6 +1,4 @@
 
-
-
     let input = document.querySelector("input");
     let button = document.querySelector("button");
 
@@ -34,7 +32,6 @@ console.log(data);
 
     function getLocation(){
         button.addEventListener("click",()=>{
-            input.value = " Enter City Name ";
                    getData(input.value);
         });
     }
